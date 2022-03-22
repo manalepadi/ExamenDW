@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Index</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+
+			<!-- Menú Lateral -->
+			<section class="panel panel-left panel-cover">
+			
+				<div class="panel-info">
+					<span class="material-icons">face</span>
+					<h4>User</h4>
+				</div>
+				
+				<div class="list">
+				  <ul>
+					<li>
+					  <a href="/home/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">sell</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Promociones</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/categorias/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">ballot</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Categorias</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">tv</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mis películas</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">account_circle</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mi perfil</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">undo</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Salir</div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+				
+			</section>
+			
+			
+			<section data-name="home" class="page">
+
+				<!-- Top Navbar -->
+				<nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="title"><i class="material-icons">tv</i></div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span>
+						</a>
+					</div>
+				</div>
+				</nav>
+
+				
+
+				<section class="page-content">
+
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<div class="row">
+							
+								<article class="col">
+									<h4>ESTRENOS</h4>
+									Disfruta las mejores películas recién salidas
+									<a href="/categorias/" class="button button-fill button-small">Ver más</a>
+								</article>
+								
+								<article class="col">
+									<img src="img/movies.jpg" alt="promo" class="img-fluid">
+								</article>
+							
+							</div>
+						</div>
+					</article>
+					
+					<div class="row">
+						<article class="col">
+							<h2 class="block-title block-title-medium">Categorías</h2>
+						</article>
+						
+						<article class="col text-align-right">
+							<a href="/lanzamientos/" class="block-title link text-small">Ver más</a>
+						</article>
+					</div>
+					
+					<article id="brands" class="block">
+						
+						
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="2">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/action.jpg" class="img-fluid" alt="adidas">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/comedy.png" class="img-fluid" alt="nike">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/drama.jpg" class="img-fluid" alt="puma">
+                                        </div>
+                                    </div>
+                                </article>
+
+								<article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/horror.jpg" class="img-fluid" alt="puma">
+                                        </div>
+                                    </div>
+                                </article>
+								
+								
+								
+                            </div>
+						</div>
+						
+						
+						
+					</article>
+					
+					
+					
+				
+				
+				
+			</section> <!-- /page-content-->
+			
+			
+			
+		</div><!-- /view-->
+	</div><!-- /app -->
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
